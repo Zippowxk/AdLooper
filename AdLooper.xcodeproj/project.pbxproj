@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B039981CD0743C009F2A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B039971CD0743C009F2A3B /* main.m */; };
+		52B0399B1CD0743C009F2A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0399A1CD0743C009F2A3B /* AppDelegate.m */; };
+		52B0399E1CD0743C009F2A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0399D1CD0743C009F2A3B /* ViewController.m */; };
+		52B039A11CD0743C009F2A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0399F1CD0743C009F2A3B /* Main.storyboard */; };
+		52B039A31CD0743C009F2A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B039A21CD0743C009F2A3B /* Assets.xcassets */; };
+		52B039A61CD0743C009F2A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B039A41CD0743C009F2A3B /* LaunchScreen.storyboard */; };
+		52B039AF1CD074B9009F2A3B /* AdLooper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B039AE1CD074B9009F2A3B /* AdLooper.m */; };
+		52B039B31CD087FC009F2A3B /* home_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B039B01CD087FC009F2A3B /* home_0.png */; };
+		52B039B41CD087FC009F2A3B /* home_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52B039B11CD087FC009F2A3B /* home_1.jpg */; };
+		52B039B51CD087FC009F2A3B /* home_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52B039B21CD087FC009F2A3B /* home_2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52B039931CD0743C009F2A3B /* AdLooper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdLooper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B039971CD0743C009F2A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B039991CD0743C009F2A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52B0399A1CD0743C009F2A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52B0399C1CD0743C009F2A3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52B0399D1CD0743C009F2A3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52B039A01CD0743C009F2A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B039A21CD0743C009F2A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B039A51CD0743C009F2A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B039A71CD0743C009F2A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B039AD1CD074B9009F2A3B /* AdLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdLooper.h; sourceTree = "<group>"; };
+		52B039AE1CD074B9009F2A3B /* AdLooper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdLooper.m; sourceTree = "<group>"; };
+		52B039B01CD087FC009F2A3B /* home_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_0.png; sourceTree = "<group>"; };
+		52B039B11CD087FC009F2A3B /* home_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_1.jpg; sourceTree = "<group>"; };
+		52B039B21CD087FC009F2A3B /* home_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B039901CD0743C009F2A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B0398A1CD0743C009F2A3B = {
+			isa = PBXGroup;
+			children = (
+				52B039951CD0743C009F2A3B /* AdLooper */,
+				52B039941CD0743C009F2A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B039941CD0743C009F2A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B039931CD0743C009F2A3B /* AdLooper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B039951CD0743C009F2A3B /* AdLooper */ = {
+			isa = PBXGroup;
+			children = (
+				52B039B01CD087FC009F2A3B /* home_0.png */,
+				52B039B11CD087FC009F2A3B /* home_1.jpg */,
+				52B039B21CD087FC009F2A3B /* home_2.jpg */,
+				52B039991CD0743C009F2A3B /* AppDelegate.h */,
+				52B0399A1CD0743C009F2A3B /* AppDelegate.m */,
+				52B0399C1CD0743C009F2A3B /* ViewController.h */,
+				52B0399D1CD0743C009F2A3B /* ViewController.m */,
+				52B039AD1CD074B9009F2A3B /* AdLooper.h */,
+				52B039AE1CD074B9009F2A3B /* AdLooper.m */,
+				52B0399F1CD0743C009F2A3B /* Main.storyboard */,
+				52B039A21CD0743C009F2A3B /* Assets.xcassets */,
+				52B039A41CD0743C009F2A3B /* LaunchScreen.storyboard */,
+				52B039A71CD0743C009F2A3B /* Info.plist */,
+				52B039961CD0743C009F2A3B /* Supporting Files */,
+			);
+			path = AdLooper;
+			sourceTree = "<group>";
+		};
+		52B039961CD0743C009F2A3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B039971CD0743C009F2A3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B039921CD0743C009F2A3B /* AdLooper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B039AA1CD0743C009F2A3B /* Build configuration list for PBXNativeTarget "AdLooper" */;
+			buildPhases = (
+				52B0398F1CD0743C009F2A3B /* Sources */,
+				52B039901CD0743C009F2A3B /* Frameworks */,
+				52B039911CD0743C009F2A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdLooper;
+			productName = AdLooper;
+			productReference = 52B039931CD0743C009F2A3B /* AdLooper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B0398B1CD0743C009F2A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wxk;
+				TargetAttributes = {
+					52B039921CD0743C009F2A3B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 52B0398E1CD0743C009F2A3B /* Build configuration list for PBXProject "AdLooper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B0398A1CD0743C009F2A3B;
+			productRefGroup = 52B039941CD0743C009F2A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B039921CD0743C009F2A3B /* AdLooper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B039911CD0743C009F2A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B039A61CD0743C009F2A3B /* LaunchScreen.storyboard in Resources */,
+				52B039B31CD087FC009F2A3B /* home_0.png in Resources */,
+				52B039A31CD0743C009F2A3B /* Assets.xcassets in Resources */,
+				52B039B51CD087FC009F2A3B /* home_2.jpg in Resources */,
+				52B039B41CD087FC009F2A3B /* home_1.jpg in Resources */,
+				52B039A11CD0743C009F2A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B0398F1CD0743C009F2A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0399E1CD0743C009F2A3B /* ViewController.m in Sources */,
+				52B0399B1CD0743C009F2A3B /* AppDelegate.m in Sources */,
+				52B039981CD0743C009F2A3B /* main.m in Sources */,
+				52B039AF1CD074B9009F2A3B /* AdLooper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52B0399F1CD0743C009F2A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B039A01CD0743C009F2A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B039A41CD0743C009F2A3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B039A51CD0743C009F2A3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B039A81CD0743C009F2A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52B039A91CD0743C009F2A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B039AB1CD0743C009F2A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdLooper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rucent.AdLooper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52B039AC1CD0743C009F2A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdLooper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rucent.AdLooper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B0398E1CD0743C009F2A3B /* Build configuration list for PBXProject "AdLooper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B039A81CD0743C009F2A3B /* Debug */,
+				52B039A91CD0743C009F2A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B039AA1CD0743C009F2A3B /* Build configuration list for PBXNativeTarget "AdLooper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B039AB1CD0743C009F2A3B /* Debug */,
+				52B039AC1CD0743C009F2A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B0398B1CD0743C009F2A3B /* Project object */;
+}
